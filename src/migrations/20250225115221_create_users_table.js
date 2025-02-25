@@ -1,11 +1,11 @@
-const tableName = "users_table";
+const tableName = "users";
 
 export function up(knex) {
   return knex.schema.createTable(tableName, function (table) {
     table.increments("id").primary();
     table.string("firstname").notNullable();
     table.string("lastname").notNullable();
-    table.string("bio").notNullable();
+    table.text("bio").notNullable();
   });
 }
 
