@@ -1,4 +1,4 @@
-import knex from "../lib/Knex.js";
+import knex from "../lib/knex.js";
 import { Model } from "objection";
 
 // instantiate the model

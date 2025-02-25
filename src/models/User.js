@@ -1,4 +1,4 @@
-import knexConfig from "../lib/Knex.js";
+import knexConfig from "../lib/knex.js";
 import { Model } from "objection";
 
 // instantiate the model
@@ -7,7 +7,7 @@ Model.knex(knexConfig);
 // define the NavigationItem model
 class User extends Model {
   static get tableName() {
-    return "users";
+    return "users_table";
   }
 
   static get idColumn() {
