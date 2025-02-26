@@ -14,4 +14,10 @@ node_modules
 # Database
 knex-demo.sqlite3
 knex_demo.sqlite3
+<<<<<<< HEAD
 database.sqlite3
+=======
+database.sqlite3
+
+
+>>>>>>> 87451ab8a1fae27c5dcbea0642cea0e1234a7acd
